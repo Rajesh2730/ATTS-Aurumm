@@ -1,0 +1,196 @@
+.container1{
+    padding-top: 5%;
+    display: flex;
+    height: 70vh;
+    
+}
+.cont-1{
+    width: 50%;
+    text-align: right;
+    padding-top: 2%;
+}
+.cont-1 p{
+    font-size: large;
+    line-height: 32px;
+}
+.cont-1 h2{
+    font-weight: bold;
+}
+.cont-1 h6{
+    font-size: small;
+    font-weight: bold;
+}
+.cont-2{
+    width: 47%;
+}
+.Content-image{
+    width: 80%;
+    transition: .3s;
+    scale: 1.1;
+}
+.Content-image:hover{
+    scale: 1.05;
+}
+.app-list{
+    display: flex;
+    width: 100%;
+}
+.app-one{
+    width: 33%;
+    height: 40vh;
+    margin: 2%;
+    background: url('../../Assets/Ellipse.bc4408b9.png');
+    background-color: rgb(234, 255, 234);
+    background-repeat: no-repeat;
+    background-position: top right;
+    scale: 1.1;
+    transition: .5s ease;
+    border-radius: 12px;
+    padding: 1%;
+}
+.app-two{
+    width: 33%;
+    height: 40vh;
+    margin: 2%;
+    background: url('../../Assets/aushopellipse.2602e1a6.png');
+    background-color: rgb(227, 248, 255);
+    background-repeat: no-repeat;
+    background-position: top right;
+    scale: 1.1;
+    border-radius: 12px;
+    transition: .5s ease;
+    padding: 1%;
+}
+.app-three{
+    width: 33%;
+    height: 40vh;
+    margin: 2%;
+    background: url('../../Assets/ausalesellipse.12571d3a.png');
+    background-color: rgb(255, 244, 223);
+    background-repeat: no-repeat;
+    background-position: top right;
+    scale: 1.1;
+    border-radius: 12px;
+    transition: .5s ease;
+    padding: 1%;
+}
+.app-one:hover{
+    scale: 1.05;
+}
+.app-two:hover{
+    scale: 1.05;
+}
+.app-three:hover{
+    scale: 1.05;
+}
+.app-name{
+    width: 50%;
+    background-color: white;
+    border-radius: 6px;
+    padding: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 5%;
+    
+}
+.app-description p{
+    text-align: left;
+    line-height: 30px;
+}
+.app-description h6{
+    border-bottom: 1px solid black;
+    padding-bottom: 5%;
+}
+.demo-btn-pay{
+    border: 0;
+    border-radius: 16px;
+    padding: 2%;
+    background-color: lightgreen;
+}
+.demo-btn-sales{
+    border: 0;
+    border-radius: 16px;
+    padding: 2%;
+    background-color: lightskyblue;
+}
+.demo-btn-shop{
+    border: 0;
+    border-radius: 16px;
+    padding: 2%;
+    background-color: lightsalmon;
+}
+
+
+
+
+
+
+/* Media Query For BOth tablet And Mobile */
+@media screen and (max-width:768px) {
+    .container1{
+        display: flex;
+        flex-direction: column;
+        height: 130vh;
+    }
+    .cont-1{
+        width: 100%;
+        text-align: left;
+    }
+    .cont-2{
+        width: 100%;
+    }
+    .app-list{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    .app-one{
+        width: 70%;
+        margin: 2;
+        scale: 1;
+        padding: 2%;
+        height: 45vh;
+    }
+    .app-two{
+        width: 70%;
+        scale: 1;
+        margin: 2;
+        height: 45vh;
+        padding: 2%;
+    }
+    .app-three{
+        width: 70%;
+        scale: 1;
+        margin: 2;
+        height: 45vh;
+        padding: 2%;
+    }
+}
+@media screen and (max-width:576px) {
+    .container1{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+    .app-list{
+        display: flex;
+        flex-direction: column;
+    }
+    .app-one{
+        width: 92%;
+        scale: 1;
+        height: 35vh;
+    }
+    .app-two{
+        width: 92%;
+        height: 35vh;
+        scale: 1;
+    }
+    .app-three{
+        width: 92%;
+        height: 35vh;
+        scale: 1;
+    }
+}

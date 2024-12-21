@@ -1,0 +1,53 @@
+.toggle{
+    border: none;
+}
+.demo{
+    border-radius: 18px;
+    color: white;
+    background: linear-gradient(30deg ,lightgreen ,green , lightgreen );
+    animation: ani .8s ease-in-out infinite alternate;
+}
+@keyframes ani {
+    0% , 100% {
+        background: linear-gradient(30deg ,lightgreen ,green , lightgreen );
+    }
+    25%{
+        background: linear-gradient(30deg ,green , lightgreen , green);
+    }
+    50%{
+        background: linear-gradient(30deg ,green , lightgreen , green);
+    }
+    75%{
+        background: linear-gradient(30deg , lightgreen ,green , lightgreen );
+    }
+    
+}
+.navbar{
+    background-color: white;
+    height: 8vh;
+    box-shadow: 2px 2px 25px 2px grey ;
+    padding: 3%;
+}
+.logo{
+    width: 80%;
+}
+.logo1{
+    display: none;
+}
+@media screen and (max-width:768px) {
+    .navbar{
+        height: 13vh;
+        padding: 2%;
+    }
+}
+@media screen and (max-width:576px) {
+    .navbar{
+        height: 8vh;
+    }
+    .logo{
+        display: none;
+    }
+    .logo1{
+        display: block;
+    }
+}

@@ -1,0 +1,17 @@
+.hero-body{
+    height: 65vh;
+    background: linear-gradient(20deg , #173753 , #6DAEDB , #2892D7 );
+    color: white;
+}
+.type{
+    font-size: xx-large;
+}
+@media screen and (max-width:576px) {
+    .type{
+        font-size: large;
+        font-weight: bold;
+    }
+    .hero-body{
+        height: 50vh;
+    }
+}
