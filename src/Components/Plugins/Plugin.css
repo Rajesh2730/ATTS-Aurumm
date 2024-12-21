@@ -181,16 +181,16 @@
     .app-one{
         width: 92%;
         scale: 1;
-        height: 35vh;
+        height: 35%;
     }
     .app-two{
         width: 92%;
-        height: 35vh;
+        height: 35%;
         scale: 1;
     }
     .app-three{
         width: 92%;
-        height: 35vh;
+        height: 35%;
         scale: 1;
     }
 }
