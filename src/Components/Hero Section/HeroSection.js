@@ -2,6 +2,7 @@ import React from 'react'
 import './HeroSection.css'
 import { ReactTyped } from 'react-typed';
 import { FaArrowRightLong } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
 
 
 const HeroSection = () => {
@@ -24,10 +25,8 @@ const HeroSection = () => {
           typeSpeed={50}
           className='type'
         />
-        <p>
-
- - The Ultimate Software Suite</p>
-        <button className="demo p-2 mt-4" style={{border:'0', borderRadius:'6px'}}>Get Started <FaArrowRightLong/> </button>
+        <p>- The Ultimate Software Suite</p>
+        <Link to='/Contact-Us' className="demo p-2 mt-4" style={{border:'0', borderRadius:'6px', textDecoration:"none"}} >Get Started <FaArrowRightLong/> </Link>
       </div>
         </div>
     </div>

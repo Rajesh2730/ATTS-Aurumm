@@ -1,0 +1,55 @@
+.banner-contact-us{
+    height: 50vh;
+    background: linear-gradient(40deg , #014F86 , #2C7DA0);
+    text-align: left;
+    color: white;
+    padding: 2%;
+}
+.title{
+    position: absolute;
+    top: 45%;
+}
+.links{
+    position: absolute;
+    top: 52%;
+}
+.link{
+    text-decoration: none;
+    color: white;   
+}
+.contact-container{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.contact-title{
+    text-align: left;
+    font-size: xx-large;
+}
+.contact-content{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-details{
+    text-align: left;
+    width: 48%;
+    margin-right: 2%;
+}
+.contact-details p{
+    font-size: larger;
+}
+.contact-form{
+    width: 45%;
+    text-align: left;
+}
+@media screen and (max-width:576px) {
+    .contact-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-details{
+        width: 100%;
+    }
+    .contact-form{
+        width: 100%;
+    }
+}

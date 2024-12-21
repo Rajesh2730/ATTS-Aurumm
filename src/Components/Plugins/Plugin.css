@@ -43,7 +43,6 @@
     background-color: rgb(234, 255, 234);
     background-repeat: no-repeat;
     background-position: top right;
-    scale: 1.1;
     transition: .5s ease;
     border-radius: 12px;
     padding: 1%;
@@ -56,7 +55,6 @@
     background-color: rgb(227, 248, 255);
     background-repeat: no-repeat;
     background-position: top right;
-    scale: 1.1;
     border-radius: 12px;
     transition: .5s ease;
     padding: 1%;
@@ -69,7 +67,6 @@
     background-color: rgb(255, 244, 223);
     background-repeat: no-repeat;
     background-position: top right;
-    scale: 1.1;
     border-radius: 12px;
     transition: .5s ease;
     padding: 1%;
@@ -120,9 +117,68 @@
     padding: 2%;
     background-color: lightsalmon;
 }
+.Fade-one{
+    background: url("../../Assets/productimg.4e9e0c05.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
 
 
 
+
+/* Plugin2 css */
+
+.plugin2-option{
+    display: flex;
+    width: 100%;
+}
+.gap{
+    width: 25%;
+}
+.features{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+.plugin2-btn{
+    border: 0;
+    width: 25%;
+    border-radius: 16px;
+    padding: 1%;
+    background-color: rgb(195, 195, 255);
+    outline: none;
+}
+.plugin2-btn:focus{
+    background-color: rgb(93, 93, 244);
+    color: white;
+}
+.plugin2-content1{
+    text-align: left;
+    display: flex;
+}
+.image{
+    width: 48%;
+}
+.Pay{
+    width: 80%;
+}
+.Sales{
+    width: 100%;
+}
+.Shop{
+    width: 60%;
+}
+.description{
+    width: 48%;
+}
+.plugin2-content2{
+    text-align: left;
+    display: none;
+}
+.plugin2-content3{
+    text-align: left;
+    display: none;
+}
 
 
 
@@ -167,6 +223,9 @@
         height: 45vh;
         padding: 2%;
     }
+    .image{
+        width: 100%;
+    }
 }
 @media screen and (max-width:576px) {
     .container1{
@@ -192,5 +251,43 @@
         width: 92%;
         height: 35%;
         scale: 1;
+    }
+    .features{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .gap{
+        width: 2%;
+    }
+    .plugin2-btn{
+        width: 30%;
+    }
+    .plugin2-content1{
+        display: flex;
+        flex-direction: column;
+    }
+    .Pay{
+        width: 100%;
+    }
+    .plugin2-content2{
+        display: none;
+        flex-direction: column;
+    }
+    .Sales{
+        width: 100%;
+    }
+    .plugin2-content3{
+        display: none;
+        flex-direction: column;
+    }
+    .Shop{
+        width: 100%;
+    }
+    .image{
+        width: 100%;
+    }
+    .description{
+        width: 100%;
     }
 }

@@ -8,7 +8,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const Plugin1 = () => {
   return (
-    <div>
+    <div className='mb-4'>
         <div className='container1 px-2'>
             <div className='cont-1'>
                 <h6>JEWELLERY STORE APP SUITE</h6>
@@ -25,6 +25,7 @@ const Plugin1 = () => {
                 <img src={Content}  alt='Ad' className='Content-image '/>
             </div>
         </div>
+        <div className='Fade-one'>
         <FadeAnimation>
             <div className='mb-4'>
                 <h5>Featured Apps</h5>
@@ -65,7 +66,8 @@ const Plugin1 = () => {
                     </div>
                 </div>
             </div>
-            </FadeAnimation>    
+            </FadeAnimation>  
+            </div>  
     </div>
   )
 }

@@ -1,6 +1,10 @@
 .toggle{
     border: none;
 }
+.toggle:focus{
+    outline: none;
+    box-shadow: none;
+}
 .demo{
     border-radius: 18px;
     color: white;
