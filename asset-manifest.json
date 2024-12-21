@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/ATTS-Aurumm/static/css/main.6e7238cf.css",
+    "main.js": "/ATTS-Aurumm/static/js/main.8812fc1e.js",
+    "static/media/new_ausale.20a8529c.svg": "/ATTS-Aurumm/static/media/new_ausale.20a8529c.a5dea9c3c51d4ef767291da2074578a8.svg",
+    "static/media/ausalesellipse.12571d3a.png": "/ATTS-Aurumm/static/media/ausalesellipse.12571d3a.21e78f032d6324b84a7b.png",
+    "static/media/Ellipse.bc4408b9.png": "/ATTS-Aurumm/static/media/Ellipse.bc4408b9.66ab2450d83a11fec836.png",
+    "static/media/aushopellipse.2602e1a6.png": "/ATTS-Aurumm/static/media/aushopellipse.2602e1a6.2e650728241047be3151.png",
+    "static/media/symbol.2d89ec5c.svg": "/ATTS-Aurumm/static/media/symbol.2d89ec5c.b992414ebd914602b9f55da1f025891b.svg",
+    "index.html": "/ATTS-Aurumm/index.html",
+    "main.6e7238cf.css.map": "/ATTS-Aurumm/static/css/main.6e7238cf.css.map",
+    "main.8812fc1e.js.map": "/ATTS-Aurumm/static/js/main.8812fc1e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e7238cf.css",
+    "static/js/main.8812fc1e.js"
+  ]
+}
