@@ -1,25 +1,31 @@
 {
   "files": {
-    "main.css": "/ATTS-Aurumm/static/css/main.2b8a6a2b.css",
-    "main.js": "/ATTS-Aurumm/static/js/main.e06a55aa.js",
+    "main.css": "/ATTS-Aurumm/static/css/main.d2f07fa3.css",
+    "main.js": "/ATTS-Aurumm/static/js/main.c7c7c2c0.js",
     "static/media/new_aupay.939fae7c.svg": "/ATTS-Aurumm/static/media/new_aupay.939fae7c.b944525cb27aad9586a6e41792ef879a.svg",
     "static/media/new_ausale.20a8529c.svg": "/ATTS-Aurumm/static/media/new_ausale.20a8529c.a5dea9c3c51d4ef767291da2074578a8.svg",
     "static/media/new_aushop.a2faba30.svg": "/ATTS-Aurumm/static/media/new_aushop.a2faba30.9016ab56ffd2fb8af53839e5415760e6.svg",
     "static/media/new_digigold.0a733f60.svg": "/ATTS-Aurumm/static/media/new_digigold.0a733f60.5a725e3e64a6a680400a786c4528cf8b.svg",
     "static/media/new_bannerall.8367a890.png": "/ATTS-Aurumm/static/media/new_bannerall.8367a890.06b13ca737df139ee8d9.png",
     "static/media/productimg.4e9e0c05.png": "/ATTS-Aurumm/static/media/productimg.4e9e0c05.1f22016e0fe3c7e89d73.png",
+    "static/media/network 1.cb97bca7.svg": "/ATTS-Aurumm/static/media/network 1.cb97bca7.cdc2a1a95ef6800c12ebc20e524eae66.svg",
+    "static/media/segmentation.5cb96792.svg": "/ATTS-Aurumm/static/media/segmentation.5cb96792.46d5aca8f2e08aab44032fa6da7e999c.svg",
     "static/media/ausalesellipse.12571d3a.png": "/ATTS-Aurumm/static/media/ausalesellipse.12571d3a.21e78f032d6324b84a7b.png",
     "static/media/Ellipse.bc4408b9.png": "/ATTS-Aurumm/static/media/Ellipse.bc4408b9.66ab2450d83a11fec836.png",
+    "static/media/personalized 1.8a024842.svg": "/ATTS-Aurumm/static/media/personalized 1.8a024842.b91d56ceeda5ac728eda2d4ececc4514.svg",
     "static/media/aushopellipse.2602e1a6.png": "/ATTS-Aurumm/static/media/aushopellipse.2602e1a6.2e650728241047be3151.png",
     "static/media/tracking 1.f41a1dff.svg": "/ATTS-Aurumm/static/media/tracking 1.f41a1dff.029b4934fcd2fbeff952707592260ed2.svg",
+    "static/media/profile _management.4a88ff77.svg": "/ATTS-Aurumm/static/media/profile _management.4a88ff77.9314a42a4b0e74f854a75116b0bb29dc.svg",
     "static/media/3d-cube 1.ff7ab8fd.svg": "/ATTS-Aurumm/static/media/3d-cube 1.ff7ab8fd.89856c4d8787a049e801c799c2331581.svg",
+    "static/media/customer_Database.2838f5d8.svg": "/ATTS-Aurumm/static/media/customer_Database.2838f5d8.3312392d70a51c83ffed495adfdddcbb.svg",
+    "static/media/atm-card 1.dc5e0c0e.svg": "/ATTS-Aurumm/static/media/atm-card 1.dc5e0c0e.a9018b1dac95bc2b82216d1a7bd5554d.svg",
     "static/media/symbol.2d89ec5c.svg": "/ATTS-Aurumm/static/media/symbol.2d89ec5c.b992414ebd914602b9f55da1f025891b.svg",
     "index.html": "/ATTS-Aurumm/index.html",
-    "main.2b8a6a2b.css.map": "/ATTS-Aurumm/static/css/main.2b8a6a2b.css.map",
-    "main.e06a55aa.js.map": "/ATTS-Aurumm/static/js/main.e06a55aa.js.map"
+    "main.d2f07fa3.css.map": "/ATTS-Aurumm/static/css/main.d2f07fa3.css.map",
+    "main.c7c7c2c0.js.map": "/ATTS-Aurumm/static/js/main.c7c7c2c0.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b8a6a2b.css",
-    "static/js/main.e06a55aa.js"
+    "static/css/main.d2f07fa3.css",
+    "static/js/main.c7c7c2c0.js"
   ]
 }
