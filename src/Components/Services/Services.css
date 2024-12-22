@@ -43,7 +43,7 @@
     border-radius: 12px
 }
 .Pay-fadein-content p{
-    font-weight: bold;
+    font-weight: 600;
 }
 .Pay-fadein-box{
     display: flex;
@@ -55,18 +55,20 @@
     background-color: white;
     border-radius: 12px;
     border-right: 3px solid lightgreen;
+    line-height: 22px;
 }
-.Pay-fadein-box-two{
-    width: 35%;
-    height: 7vh;
-    background-color: white;
-    border-radius: 12px;
-    border-right: 3px solid lightgreen;
+.Pay-fadein-box-one h6{
+    font-weight: 500;
+    color: grey;
 }
 .Pay-fadein-logo{
     width: 8%;
 }
-
+.Pay-fadein-box-cus{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
 
 
 @media screen and (max-width:768px) {
@@ -100,5 +102,16 @@
     .Pay-Content-two{
         display: flex;
         flex-direction: column;
+    }
+    .Pay-fadein-box{
+        display: flex;
+        flex-direction: column;
+    }
+    .Pay-fadein-box-one{
+        width: 100%;
+        margin-bottom: 3%;
+    }
+    .Pay-fadein-content{
+        padding: 4%;
     }
 }

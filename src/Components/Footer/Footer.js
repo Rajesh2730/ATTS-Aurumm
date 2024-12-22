@@ -25,7 +25,7 @@ const Footer = () => {
                 <a href="/ATTS-Aurumm" className="text-dark text-decoration-none">Home</a>
               </li>
               <li>
-                <a href="#services" className="text-dark text-decoration-none">Services</a>
+                <a href="/Service-AuPay" className="text-dark text-decoration-none">Services</a>
               </li>
               <li>
                 <a href="/Contact-Us" className="text-dark text-decoration-none">Contact</a>

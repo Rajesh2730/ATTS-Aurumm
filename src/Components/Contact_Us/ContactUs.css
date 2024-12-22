@@ -40,6 +40,12 @@
 .contact-form{
     width: 45%;
     text-align: left;
+    background: url('../../Assets/productimg.4e9e0c05.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 19px;
+    backdrop-filter: blur(10px);
+    background-color: rgb(224, 222, 222);
 }
 @media screen and (max-width:576px) {
     .contact-content{

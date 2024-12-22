@@ -7,6 +7,12 @@ import L1 from '../../Assets/new_aupay.939fae7c.svg'
 import L2 from '../../Assets/new_digigold.0a733f60.svg'
 import L3 from '../../Assets/3d-cube 1.ff7ab8fd.svg'
 import L4 from '../../Assets/tracking 1.f41a1dff.svg'
+import L5 from '../../Assets/atm-card 1.dc5e0c0e.svg'
+import L6 from '../../Assets/network 1.cb97bca7.svg'
+import L7 from '../../Assets/customer_Database.2838f5d8.svg'
+import L8 from '../../Assets/profile _management.4a88ff77.svg'
+import L9 from '../../Assets/segmentation.5cb96792.svg'
+import L10 from '../../Assets/personalized 1.8a024842.svg'
 import FadeAnimation from '../Plugins/FadeAnimation'
 
 
@@ -53,14 +59,15 @@ const AuPay = () => {
         </div>
         </FadeAnimation>
         </div>
+        <FadeAnimation>
         <div className='Pay-fadein'>
             <h6>FEATURES</h6>
-            <div className='Pay-fadein-content'>
+            <div className='Pay-fadein-content mb-3'>
                 <h3>Chit & Scheme Management</h3>
                 <p>Facilitates seamless administration and tracking of various chit funds and schemes.</p>
                 <div className='Pay-fadein-box'>
                     <div className='Pay-fadein-box-one px-3 py-2 d-flex justify-content-evenly align-items-center'>
-                        <h6>Flexible Scheme Creation and Management.</h6>
+                        <h6>Flexible Scheme Management.</h6>
                         <img src={L3} className='Pay-fadein-logo' alt=''/>
                     </div>
                     <div className='Pay-fadein-box-one px-3 py-2 d-flex justify-content-evenly align-items-center'>
@@ -69,7 +76,44 @@ const AuPay = () => {
                     </div>
                 </div>
             </div>
+            <div className='Pay-fadein-content mb-3'>
+                <h3>Payment Management</h3>
+                <p>Simplifies transaction processing and invoicing for enhanced financial efficiency.</p>
+                <div className='Pay-fadein-box'>
+                    <div className='Pay-fadein-box-one px-3 py-2 d-flex justify-content-evenly align-items-center'>
+                        <h6>Streamlined Payments.</h6>
+                        <img src={L5} className='Pay-fadein-logo' alt=''/>
+                    </div>
+                    <div className='Pay-fadein-box-one px-3 py-2 d-flex justify-content-evenly align-items-center'>
+                        <h6>Seamless Integration</h6>
+                        <img src={L6} className='Pay-fadein-logo' alt=''/>
+                    </div>
+                </div>
+            </div>
+            <div className='Pay-fadein-content mb-3'>
+                <h3>Customer Management</h3>
+                <p>Enables comprehensive customer relationship management with segmentation and personalized communication tools.</p>
+                <div className='Pay-fadein-box-cus'>
+                    <div className='Pay-fadein-box-one px-3 my-2 py-2 d-flex justify-content-evenly align-items-center'>
+                        <h6>Customer Database Maintenance</h6>
+                        <img src={L7} className='Pay-fadein-logo' alt=''/>
+                    </div>
+                    <div className='Pay-fadein-box-one px-3 py-2 d-flex justify-content-evenly align-items-center'>
+                        <h6>Profile Management</h6>
+                        <img src={L8} className='Pay-fadein-logo' alt=''/>
+                    </div>
+                    <div className='Pay-fadein-box-one px-3 py-2 d-flex justify-content-evenly align-items-center'>
+                        <h6>Segmentation</h6>
+                        <img src={L9} className='Pay-fadein-logo' alt=''/>
+                    </div>
+                    <div className='Pay-fadein-box-one px-3 py-2 d-flex justify-content-evenly align-items-center'>
+                        <h6>Personalised Interaction Tools</h6>
+                        <img src={L10} className='Pay-fadein-logo' alt=''/>
+                    </div>
+                </div>
+            </div>
         </div>
+        </FadeAnimation>
     </div>
   )
 }

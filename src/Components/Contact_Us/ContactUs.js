@@ -51,11 +51,9 @@ const ContactUs = () => {
                     <a href='https://www.instagram.com/aurumm_serv_soft/' target='_blank' style={{color:'black'}}>Instagram</a><br/>
                     <a href='https://www.facebook.com/people/Aurumm/61558187474609/' target='_blank' style={{color:'black'}}>Facebook</a>
                 </div>
-                <div className='contact-form'>
-                
+                <div className='contact-form p-4 mb-3'>
           <h2 className="text-center mb-4">Contact Us</h2>
           <Form onSubmit={handleSubmit}>
-            {/* Full Name */}
             <Form.Group className="mb-3" controlId="fullName">
               <Form.Label className='fw-bold'>Full Name</Form.Label>
               <Form.Control
@@ -67,8 +65,6 @@ const ContactUs = () => {
                 required
               />
             </Form.Group>
-
-            {/* Email Address */}
             <Form.Group className="mb-3" controlId="email">
               <Form.Label className='fw-bold'>Email Address</Form.Label>
               <Form.Control
@@ -80,8 +76,6 @@ const ContactUs = () => {
                 required
               />
             </Form.Group>
-
-            {/* Project Type Dropdown */}
             <Form.Group className="mb-3" controlId="projectType">
               <Form.Label className='fw-bold'>Project Type</Form.Label>
               <Form.Select
@@ -98,8 +92,6 @@ const ContactUs = () => {
                 <option value="AuShop">AuShop</option>
               </Form.Select>
             </Form.Group>
-
-            {/* Budget */}
             <Form.Group className="mb-3" controlId="budget">
               <Form.Label className='fw-bold'>Budget</Form.Label>
               <Form.Control
@@ -111,8 +103,6 @@ const ContactUs = () => {
                 required
               />
             </Form.Group>
-
-            {/* Message */}
             <Form.Group className="mb-3" controlId="message">
               <Form.Label className='fw-bold'>Message</Form.Label>
               <Form.Control
@@ -125,8 +115,6 @@ const ContactUs = () => {
                 required
               />
             </Form.Group>
-
-            {/* Submit Button */}
             <Button variant="success" type="submit" className="w-100 mb-3">
               Submit
             </Button>
