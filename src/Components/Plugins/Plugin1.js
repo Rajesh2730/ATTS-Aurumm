@@ -4,6 +4,7 @@ import Content from '../../Assets/new_ausale.20a8529c.svg'
 import FadeAnimation from './FadeAnimation'
 import Icon from '../../Assets/symbol.2d89ec5c.svg'
 import { FaArrowRightLong } from "react-icons/fa6";
+import { Link } from 'react-router-dom'
 
 
 const Plugin1 = () => {
@@ -40,7 +41,7 @@ const Plugin1 = () => {
                     <div className='app-description'>
                         <h6>An Exclusive Gold Savings Scheme Payment App</h6>
                         <p>Make gold scheme payments simple and easy for your customers with AU Pay - the ultimate jewellery finance partner.</p>
-                        <button className='demo-btn-pay px-3'>Let's Start <FaArrowRightLong/> </button>
+                        <Link className='demo-btn-pay px-3' to="/Service-AuPay" >Let's Start <FaArrowRightLong/> </Link>
                     </div>
                 </div>
                 <div className='app-two'>
@@ -51,7 +52,7 @@ const Plugin1 = () => {
                     <div className='app-description'>
                         <h6>All-Round Inventory Management Assistant</h6>
                         <p>If you`'`re looking for a holistic store management solution, then AU Sales is the only app you need!</p>
-                        <button className='demo-btn-sales mt-4 px-3'>Let's Start <FaArrowRightLong/> </button>
+                        <Link className='demo-btn-pay mt-4 px-3' to="/Service-AuSales" >Let's Start <FaArrowRightLong/> </Link>
                     </div>
                 </div>
                 <div className='app-three'>
@@ -62,7 +63,7 @@ const Plugin1 = () => {
                     <div className='app-description'>
                         <h6>Give Your Fine Jewellery Sleek Online Platform!</h6>
                         <p>Are you ready to give your customers the ultimate online jewellery shopping experience?Discover AU Shop and let's begin!</p>
-                        <button className='demo-btn-shop px-3'>Let's Start <FaArrowRightLong/> </button>
+                        <Link className='demo-btn-pay px-3' to="/Service-AuShop" >Let's Start <FaArrowRightLong/> </Link>
                     </div>
                 </div>
             </div>

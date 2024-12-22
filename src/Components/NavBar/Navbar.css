@@ -38,6 +38,21 @@
 .logo1{
     display: none;
 }
+.dropdown-pay{
+    width: 100%;
+}
+.dropdown-pay-body{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
+
 @media screen and (max-width:768px) {
     .navbar{
         height: 13vh;

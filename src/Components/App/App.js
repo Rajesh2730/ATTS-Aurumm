@@ -8,6 +8,9 @@ import React , { useState, useEffect } from 'react'
 import { Button } from "react-bootstrap";
 import { FaArrowUp } from "react-icons/fa";
 import "swiper";
+import AuPay from '../Services/AuPay';
+import AuSales from '../Services/AuSales';
+import AuShop from '../Services/AuShop';
 
 
 
@@ -41,8 +44,16 @@ function App() {
       <Routes>
         <Route path='/ATTS-Aurumm' element={<LandingPage/>} />
         <Route path='/Contact-Us' element={<ContactUs/>} />
+        <Route path='/Service-AuPay' element={<AuPay/>} />
+        <Route path='/Service-AuSales' element={<AuSales/>} />
+        <Route path='/Service-AuShop' element={<AuShop/>} />
       </Routes>
       <Footer/>
+
+
+
+
+
       {isVisible && (
         <Button
           onClick={scrollToTop}
