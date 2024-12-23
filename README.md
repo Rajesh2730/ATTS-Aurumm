@@ -1,6 +1,6 @@
 MERN Stack Project
 
-A MERN Stack application built with MongoDB, Express, React, and Node.js. This project demonstrates a full-stack web application with a modern, responsive UI and robust backend functionality.
+A MERN Stack application built with  React. This project demonstrates a full-stack web application with a modern, responsive UI and robust backend functionality.
 
 🚀 Features
 
